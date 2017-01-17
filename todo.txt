@@ -1,0 +1,5 @@
+- up down left rigth button for style position element 
+- les h in one function with selector 
+- select element for styling using recherche zone 
+- help menu 
+

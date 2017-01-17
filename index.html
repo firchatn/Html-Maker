@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Html Maker</title>
+<script src="add.js"> </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/styles.css">
+
+</head>
+<body>
+<form id="myForm" action="">
+<div class="container">
+<h1> Welcome to esay form !</h1>
+
+
+<div id="input_container">
+    <input type="text" id="input" value placeholder="Selector">
+    <img src="icon/search.png" id="input_img">
+</div>
+
+
+	
+<div id="div1">
+</div>
+
+
+<ul id="menu-accordeon">
+   <li><a href="#">Titre</a>
+      <ul id ="h">
+         <li id="h1" value="h1"><a href="#" onClick="add_h1()">H1</a></li>
+         <li id="h2" value="h2"><a href="#" onClick="add_h2()">H2</a></li>
+         <li id="h3" value="h3"><a href="#" onClick="add_h3()">H3</a></li>
+         <li id="h4" value="h4"><a href="#" onClick="add_h4()">H4</a></li>
+         <li id="h5" value="h5"><a href="#" onClick="add_h5()">H5</a></li>
+         <li id="h6" value="h6"><a href="#" onClick="add_h6()">H6</a></li>
+      </ul>
+   </li>
+    <li><a href="#">Input</a>
+      <ul>
+         <li><a href="#" onclick="add_input_text()">Text</a></li>
+      </ul>
+   </li>
+   <li><a href="#">Label</a>
+      <ul>
+         <li><a href="#" onclick="add_label_name()">Name</a></li>
+         <li><a href="#" onclick="add_label_lastname()">Last Name</a></li>
+      </ul>
+   </li>
+   <li><a href="#">Style</a>
+      <ul>
+         <li><a href="#" onclick="add_br()">Return line</a></li>
+         <li><a href="#" onclick="">Fixe all input</a></li>
+      </ul>
+   </li>
+</ul>
+<h4>Setting element position</h4>
+
+
+<div id ="key_left">
+<input type="image" src="icon/left.jpg" height="42" width="42" />
+</div>
+
+<div id ="key_down">
+<input type="image" src="icon/down.jpg" height="42" width="42" />
+</div>
+
+<div id ="key_up">
+<input type="image" src="icon/up.jpg" height="42" width="42" />
+</div>
+
+<div id ="key_rigth">
+<input type="image" src="icon/rigth.jpg" height="42" width="42" />
+</div>
+</div>
+</form>
+</body>
+</html>
+
+
